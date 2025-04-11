@@ -48,7 +48,7 @@ function App() {
         <p>Please choose what you feel is right...</p>
         
         <div className="buttons">
-          <button onClick={handleForgive}>I Forgive You ❤️</button>
+          <button onClick={handleForgive} className={isPunishClicked ? 'invisible':''} >I Forgive You ❤️</button>
           <button onClick={handlePunish} className={isPunishClicked ? 'invisible':''}>You Deserve Punishment 😡</button>
         </div>
 
