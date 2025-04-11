@@ -3,7 +3,7 @@ import React from 'react';
 const ThankYou = () => {
     const style={
         height:'10rem',
-        maxHeight:'10vw',
+        
     }
   return (
     
