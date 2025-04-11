@@ -1,0 +1,40 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background: White;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+h1{
+  font-size: 2.5rem;
+}
+.container {
+  background:#213547;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px #f8acf3;
+  margin:20px;
+ 
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#forgiveBtn {
+  background-color: #90ee90 !important;
+}
+
+#punishBtn {
+  background-color: #ff6961;
+}
+.invisible{
+  display: none;
+}
