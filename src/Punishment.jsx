@@ -64,7 +64,7 @@ const Punishment = () => {
         <div className="modal-overlay">
           <div className="modal-container">
             <span className="close-btn" onClick={closeModal}>&times;</span>
-            <form onSubmit={handleSubmit}>
+            <form onSubmit={handleSubmit} netlify>
               <h2>Okay... I Deserve It 😣</h2>
               <label htmlFor="type">Type of Punishment</label>
               <input type="text" name="type" required />
